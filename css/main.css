@@ -1,0 +1,81 @@
+* {
+    box-sizing: inherit;
+}
+
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+    color: rgb(39, 9, 9);
+}
+
+nav {
+  background-color: #4e2424;
+  color: white;
+}
+
+.tech-stack {
+    text-align: center;
+    padding: 5px 0;
+    padding-bottom: 50px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  }
+
+.working-knowledge {
+    border-left: 2px solid;
+}
+
+.about {
+    text-align: center;
+    background-color: #5d686b;
+    padding: 5px 0;
+}
+
+@media (min-width: 600px) {
+    .tech-stack {
+      padding-bottom: 10%;
+    }
+}
+
+.stack-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: stretch;
+    color: rgb(114, 89, 89);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.row {
+    padding: 0px;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.self-image {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 10px;
+}
+
+.portfolio {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
