@@ -22,14 +22,10 @@ nav {
 .tech-stack {
     text-align: center;
     padding: 5px 0;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
   }
-
-.working-knowledge {
-    border-left: 2px solid;
-}
 
 .about {
     text-align: center;
@@ -45,13 +41,13 @@ nav {
 
 .stack-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-items: stretch;
     color: rgb(114, 89, 89);
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 35px;
   }
 
 .icon {
