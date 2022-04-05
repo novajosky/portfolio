@@ -6,15 +6,30 @@
   box-sizing: inherit;
 }
 
+#header-main {
+  font-family: Londrina Shadow;
+  font-size: 1.6em;
+  font-weight: bolder;
+}
+
+#header-sub {
+  font-family: Londrina Shadow;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: Londrina Shadow;
+  font-weight: bolder;
+}
 body {
     background-image: url("../image/grandcanyon.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: stretch;
 }
 
 nav {
-  background-color: #ffffff;
   color: white;
+  font-weight: bolder;
 }
 
 .tech-stack {
